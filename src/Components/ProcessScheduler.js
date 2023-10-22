@@ -78,8 +78,8 @@ class ProcessScheduler extends Component {
     return (
         <div className="process-scheduler">
         <form onSubmit={this.handleProcessInput}>
-          <input type="number" name="arrivalTime" placeholder="Arrival Time" />
-          <input type="number" name="burstTime" placeholder="Burst Time" />
+        <input type="number" name="arrivalTime" placeholder="Arrival Time" required />
+<input type="number" name="burstTime" placeholder="Burst Time" required />
           <button type="submit">Add Process</button>
         </form>
 

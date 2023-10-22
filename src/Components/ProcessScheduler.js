@@ -97,6 +97,8 @@ class ProcessScheduler extends Component {
                 <th>Completion Time</th>
                 <th>Turnaround Time</th>
                 <th>Waiting Time</th>
+                <th>Response Time</th>
+
               </tr>
             </thead>
             <tbody>
@@ -109,6 +111,7 @@ class ProcessScheduler extends Component {
                   <td>{process.completionTime}</td>
                   <td>{process.turnaroundTime}</td>
                   <td>{process.waitingTime}</td>
+                  <td>{process.responseTime}</td>
                 </tr>
               ))}
             </tbody>
